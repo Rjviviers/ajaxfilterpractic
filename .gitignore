@@ -2,3 +2,4 @@
 /logs/
 /app/sql/
 local-site.json
+emails.csv

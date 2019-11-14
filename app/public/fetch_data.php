@@ -22,7 +22,7 @@ if(isset($_POST["action"]))
 		 AND product_brand IN('".$brand_filter."')
 		";
 	}
-	if(isset($_POST["ram"]))
+	if(isset($_POST["ram"])) 
 	{
 		$ram_filter = implode("','", $_POST["ram"]);
 		$query .= "

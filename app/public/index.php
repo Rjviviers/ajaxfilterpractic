@@ -148,7 +148,7 @@ $(document).ready(function(){
                 $('.filter_data').html(data);
             }
         });
-    }
+    } 
 
     function get_filter(class_name)
     {
